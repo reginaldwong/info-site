@@ -5,7 +5,7 @@ const Navbar = () => {
         <nav>
             <img src="./images/smile-beam.png" alt="smile face" className="nav--logo" />
             <h3 className="nav--text">Reginald Wong</h3>
-            <h4 className="nav--title">Software Developer - Full Stack</h4>
+            <h3 className="nav--title">Software Developer - Full Stack</h3>
         </nav>
     )
 }
