@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    background-color: #01161e;
+}
+
+.nav--logo {
+    height: 50px;
+
+}
+
+.nav--text {
+    color: #598392;
+}
+
+.nav--title {
+    color: #aec3b0;
+}
+
