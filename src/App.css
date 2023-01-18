@@ -64,6 +64,11 @@ main {
     text-align: left;
 }
 
+.main--facts > li > a {
+    text-decoration: inherit;
+    color: #61DAFB;
+}
+
 .main--facts > li {
     margin-bottom: 2rem;
     font-size: 1.25rem;
