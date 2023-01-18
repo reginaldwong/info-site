@@ -5,7 +5,10 @@
 body {
     margin: 0;
     font-family: Inter, sans-serif;
+    overscroll-behavior: none;
 }
+
+/* NAVBAR COMPONENT */
 
 nav {
     display: flex;
@@ -14,7 +17,6 @@ nav {
     background-color: #21222A;
     padding: 30px 30px;
 }
-
 
 .fi {
     font-size: 30px;
@@ -26,10 +28,45 @@ nav {
 .nav--text {
     color: #61DAFB;
     margin-right: auto;
+    font-size: 22px;
+}
+
+.nav--text > a {
+    text-decoration: inherit;
+    color: inherit;
 }
 
 .nav--title {
     color: #DEEBF8;
- 
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* MAIN COMPONENT */
+
+main {
+    background-color: #282D35;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main--title {
+    letter-spacing: -0.05rem;
+    font-size: 3rem;
+    margin-top: 0;
+    padding-block: 3rem 2rem;
+    margin-left: 27px;
+}
+
+.main--facts {
+    display: inline-block;
+    text-align: left;
+}
+
+.main--facts > li {
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    list-style-position: inside;
 }
 
