@@ -1,12 +1,13 @@
 * {
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 body {
     margin: 0;
     font-family: Inter, sans-serif;
     overscroll-behavior: none;
+    min-height: 100vh;
+    background-color: #282D35;
 }
 
 /* NAVBAR COMPONENT */
@@ -47,7 +48,6 @@ nav {
 /* MAIN COMPONENT */
 
 main {
-    background-color: #282D35;
     color: #ffffff;
     text-align: center;
 }
@@ -78,16 +78,24 @@ main {
 /* FOOTER COMPONENT */
 
 footer {
-    background-color: #282D35;
+    background-color: #21222A;
     color: #ffffff;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer--title {
     letter-spacing: -0.05rem;
-    font-size: 2rem;
+    font-size: 25px;
     margin-top: 0;
-    padding-block: 3rem 2rem;
+    padding-block: 1.5rem .5rem;
+}
+
+.footer--links {
+    margin-bottom: 16px;
 }
 
 .footer--links > li {
