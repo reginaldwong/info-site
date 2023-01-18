@@ -27,6 +27,7 @@ nav {
 
 .nav--text {
     color: #61DAFB;
+    letter-spacing: -0.05rem;
     margin-right: auto;
     font-size: 22px;
 }
@@ -75,3 +76,21 @@ main {
     list-style-position: inside;
 }
 
+/* FOOTER COMPONENT */
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    background-color: #21222A;
+    padding: 30px 30px;
+    color: #ffffff;
+}
+
+.footer--title {
+    margin-right: auto;
+}
+
+.footer--links > li {
+    display: inline;
+} 
