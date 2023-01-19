@@ -71,8 +71,13 @@ main {
 
 .main--facts > li {
     margin-bottom: 2rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     list-style-position: inside;
+}
+
+.main--facts > li::marker {
+    font-size: 2rem;
+    color: #61DAFB;
 }
 
 /* FOOTER COMPONENT */
@@ -85,6 +90,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 175px;
 }
 
 .footer--title {
@@ -107,3 +113,4 @@ footer {
     text-decoration: inherit;
     color: #61DAFB;
 }
+
