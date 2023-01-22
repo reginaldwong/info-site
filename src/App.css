@@ -96,18 +96,15 @@ footer {
     color: #ffffff;
     text-align: center;
     margin-top: auto;
-    height: 175px;
 }
 
 .footer--title {
     letter-spacing: -0.05rem;
     font-size: 25px;
-    margin-top: 0;
-    padding-block: 1.5rem .5rem;
 }
 
 .footer--text {
-    margin-bottom: 30px;
+    padding: 25px 0;
 }
 
 .footer--links > li {
@@ -122,5 +119,6 @@ footer {
 
 .footer--links > li > a:hover {
     color: #ffffff;
+    text-decoration: underline;
 }
 
